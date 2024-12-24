@@ -1,3 +1,3 @@
-import m1 as m
+import math as m
 print(m.pi)
-m.sq(4)
+m.sqrt(4)
