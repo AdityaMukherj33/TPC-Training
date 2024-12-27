@@ -143,11 +143,21 @@
 # b={'a':1,'b':2}
 # print(b['a','b'])
 
-ar={}
-ar[1]=1
-ar['1']=2
-ar[1]+=1
-sum=0
-for k in ar:
-    sum+=ar[k]
-print(sum)
+# ar={}
+# ar[1]=1
+# ar['1']=2
+# ar[1]+=1
+# sum=0
+# for k in ar:
+#     sum+=ar[k]
+# print(sum)
+
+b={}
+c={}
+j={}
+b['bi']=1
+b['ci']=3
+j['jj']=4
+c['b']=b
+c['j']=j
+print(len(c[b]))
