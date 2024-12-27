@@ -165,3 +165,5 @@
 a={'b':3,'a':4,'c':5}
 for _ in sorted(a):
     print(a[_])
+b=a.copy()
+print(id(b)==id(a))
