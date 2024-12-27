@@ -162,8 +162,20 @@
 # c['j']=j
 # print(len(c[b]))
 
-a={'b':3,'a':4,'c':5}
-for _ in sorted(a):
-    print(a[_])
-b=a.copy()
-print(id(b)==id(a))
+# a={'b':3,'a':4,'c':5}
+# for _ in sorted(a):
+#     print(a[_])
+# b=a.copy()
+# print(id(b)==id(a))
+
+
+r={'r':2,'e':4}
+id1=id(r)
+del r
+r={'r':2,'e':4}
+id2=id(r)
+print(id1==id2)
+
+str=''
+if not any(char.isdigit() for char in str):
+    print(0)
