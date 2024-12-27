@@ -136,3 +136,18 @@
 #chek if key exist in a dictionary
 #reverse dictionary
 #median value of dictionary
+
+# a={(1,2):1,(2,3):2,(4,5):3}
+# print(a[4,5])
+
+# b={'a':1,'b':2}
+# print(b['a','b'])
+
+ar={}
+ar[1]=1
+ar['1']=2
+ar[1]+=1
+sum=0
+for k in ar:
+    sum+=ar[k]
+print(sum)
