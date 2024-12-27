@@ -152,12 +152,16 @@
 #     sum+=ar[k]
 # print(sum)
 
-b={}
-c={}
-j={}
-b['bi']=1
-b['ci']=3
-j['jj']=4
-c['b']=b
-c['j']=j
-print(len(c[b]))
+# b={}
+# c={}
+# j={}
+# b['bi']=1
+# b['ci']=3
+# j['jj']=4
+# c['b']=b
+# c['j']=j
+# print(len(c[b]))
+
+a={'b':3,'a':4,'c':5}
+for _ in sorted(a):
+    print(a[_])
