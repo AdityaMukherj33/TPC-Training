@@ -11,20 +11,20 @@
 # # # # # # #     #  -Growable
 # # # # # # #     #  -Mutable
 
-# # # # # # # # mylist=['a','b','g',45,60.5]
-# # # # # # # # print(type(mylist))
-# # # # # # # # print(mylist[1:4:2])
-# # # # # # # # print(mylist[-1:-5:-1])
-# # # # # # # # mylist[0]='b'
-# # # # # # # # print(mylist)
-# # # # # # # # mylist.append('h')
-# # # # # # # # print(mylist)
-# # # # # # # # mylist.insert(3,'x')
-# # # # # # # # print(mylist)
-# # # # # # # # mylist.remove('h')
-# # # # # # # # print(mylist)
-# # # # # # # # new=mylist.copy()
-# # # # # # # # print(new)
+# mylist=['a','b','g',45,60.5]
+# print(type(mylist))
+# print(mylist[1:4:2])
+# print(mylist[-1:-5:-1])
+# mylist[0]='b'
+# print(mylist)
+# mylist.append('h')
+# print(mylist)
+# mylist.insert(3,'x')
+# print(mylist)
+# mylist.remove('h')
+# print(mylist)
+# new=mylist.copy()
+# print(new)
 
 # # # # # # # mine=[[1,2,3],[4,5,6],[7,8,9]]
 # # # # # # # print(mine[1][2])
