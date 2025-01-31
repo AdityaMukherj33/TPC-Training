@@ -131,11 +131,11 @@
 # print(s1)
 
 
-#remove keyvalue pairs from a dictionary
-#merge two dictionary
-#chek if key exist in a dictionary
-#reverse dictionary
-#median value of dictionary
+# remove keyvalue pairs from a dictionary
+# merge two dictionary
+# chek if key exist in a dictionary
+# reverse dictionary
+# median value of dictionary
 
 # a={(1,2):1,(2,3):2,(4,5):3}
 # print(a[4,5])
